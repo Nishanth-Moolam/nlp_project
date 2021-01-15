@@ -5,33 +5,7 @@ from flask_login import login_user
 
 from werkzeug.security import generate_password_hash, check_password_hash
 
-auth = Blueprint('auth', __name__)
-
-
-class Login(MethodView):
-
-    def get(self):
-        return jsonify({'content': 'this is the login page'})
-
-    def post(self):
-        from models import User, db
-
-        login_form = dict(request.form)
-        email = login_form['email'][0]
-        password = login_form['password'][0]
-
-        user = User.query.filter_by(email=email).first()
-        if not user or not check_password_hash(user.password, password):
-            return jsonify({'content': 'credentials invalid'})
-
-        elif user and check_password_hash(user.password, password):
-            return jsonify({'content': 'credentials valid'})
-
-        else:
-            return jsonify({'content': 'error occurred'})
-
-
-auth.add_url_rule('/login', view_func=Login.as_view('login'))
+signup = Blueprint('signup', __name__)
 
 
 class Signup(MethodView):
@@ -41,8 +15,11 @@ class Signup(MethodView):
 
     def post(self):
         # import from app to use db model
-        from models import User, db
+        from models.user import User, db
 
+        return 'this works'
+
+        '''
         # detects form data!
         user = dict(request.form)
         username = user['username'][0]
@@ -68,15 +45,7 @@ class Signup(MethodView):
             except:
                 db.session.rollback()
                 return jsonify({'content': 'there was a problem adding user'})
+        '''
 
 
-auth.add_url_rule('/signup', view_func=Signup.as_view('signup'))
-
-
-class Logout(MethodView):
-
-    def get(self):
-        pass
-
-
-auth.add_url_rule('/logout', view_func=Logout.as_view('logout'))
+signup.add_url_rule('/signup', view_func=Signup.as_view('signup'))
