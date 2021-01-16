@@ -1,9 +1,10 @@
 from flask import Flask, jsonify, request, Blueprint, redirect
 from flask_sqlalchemy import SQLAlchemy
 from flask.views import MethodView
+from werkzeug.utils import secure_filename
 
-import services.utils
 import config
+import os
 
 upload = Blueprint('upload', __name__)
 
@@ -15,47 +16,55 @@ class UploadNotesFile(MethodView):
         return 'this is the upload notes file page'
 
     def post(self):
+        from services.utils import find_section, save_file
+        from services.create_note import CreateNote
 
         if request.files:
+
+            notes_file = request.files['notes_file']
+            notes_section = request.form['notes_section']
+            notes_filename = secure_filename(notes_file.filename)
+
+            # add notes info into notes db model
+            section_id = find_section(notes_section)
+            CreateNote(
+                notes_filename=notes_filename, section_id=section_id)
+
+            # uses upload service to upload notes file
             try:
-                notes_file = request.files['notes_file']
-                notes_folder = request.form['notes_folder']
-                notes_filename = request.form['notes_filename']
-
-                # add notes info into notes db model
-                # checks if notes folder exists
-                # uses upload service to upload notes file
-
-                '''
-                notes_file.save(os.path.join(
-                    config.server_path + 'static/uploads/', notes_filename))
-                '''
-
-                return 'file worked with notes folder: '+notes_folder
+                save_file(
+                    notes_file, notes_section, notes_filename)
             except:
-                return 'error while uploading'
+                return 'file-path does not exist'
+
+            return 'file worked with notes folder: '+notes_section
+
         return 'file not present'
-
-        '''
-        # import from app to use db model
-        from models import Blog, db
-
-        # detects form data!
-        blog = dict(request.form)
-        title = blog['title'][0]
-        content = blog['content'][0]
-        author_id = blog['author_id'][0]
-        date_added = datetime.now()
-        try:
-            new_blog = Blog(title=title, content=content,
-                            author_id=author_id, date_added=date_added)
-            db.session.add(new_blog)
-            db.session.commit()
-            return jsonify({'content': 'blog added!'})
-        except:
-            db.session.rollback()
-            return jsonify({'content': 'there was a problem adding blog'})
-        '''
 
 
 upload.add_url_rule('/upload', view_func=UploadNotesFile.as_view('upload'))
+
+
+class CreateSectionFolder(MethodView):
+
+    def get(self):
+
+        return 'this is the create section folder page'
+
+    def post(self):
+        from services.utils import make_folder
+        from services.create_section import CreateSection
+
+        section_name = request.form['section_name']
+
+        # add into db model
+        CreateSection(section_name=section_name)
+
+        # creates the folder
+        make_folder(section_name)
+
+        return 'section created!'
+
+
+upload.add_url_rule(
+    '/newsection', view_func=CreateSectionFolder.as_view('newsection'))
