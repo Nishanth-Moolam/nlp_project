@@ -5,7 +5,8 @@ from flask_cors import CORS
 
 import config
 
-from views.home import home
+from endpoints.home import home
+from endpoints.upload import upload
 
 # folder where file uploads exist
 UPLOAD_FOLDER = config.server_path+'/static/uploads'
@@ -14,6 +15,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 app = Flask(__name__)
 
 app.register_blueprint(home, url_prefix='')
+app.register_blueprint(upload, url_prefix='')
 
 # enables cors
 CORS(app)
@@ -25,3 +27,4 @@ db = SQLAlchemy(app)
 if __name__ == "__main__":
     app.run(debug=True)
     db.create_all()
+    print(config.server_path + 'static/uploads/')
