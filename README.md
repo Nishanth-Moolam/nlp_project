@@ -33,6 +33,9 @@ and finally run on localhost:
 python app.py
 ```
 
-### Important!
+## Important!
 
-to run on your machine, create a secrets.py file, with your own secret_key, and rapidapi_key!
+This application uses the following external api's: (you must use your api keys in the secrets.py file you create!)
+
+- Microsoft Computer Vision API
+- expert.ai Natural Language API
