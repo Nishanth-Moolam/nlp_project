@@ -17,7 +17,7 @@ class UploadNotesFile(MethodView):
 
     def post(self):
         from services.utils import find_section, save_file
-        from services.create_note import CreateNote
+        from services.note import CreateNote
 
         if request.files:
 
@@ -53,7 +53,7 @@ class CreateSectionFolder(MethodView):
 
     def post(self):
         from services.utils import make_folder
-        from services.create_section import CreateSection
+        from services.section import CreateSection
 
         section_name = request.form['section_name']
 

@@ -1,0 +1,120 @@
+[
+  {
+    "boundingBox": "48,42,520,462",
+    "lines": [
+      {
+        "boundingBox": "48,42,405,59",
+        "words": [{ "boundingBox": "48,42,405,59", "text": "GIZMODO" }]
+      },
+      {
+        "boundingBox": "50,167,518,30",
+        "words": [
+          { "boundingBox": "50,167,108,30", "text": "HOME" },
+          { "boundingBox": "213,167,134,30", "text": "LATEST" },
+          { "boundingBox": "402,167,166,30", "text": "REVIEWS" }
+        ]
+      },
+      {
+        "boundingBox": "57,472,99,32",
+        "words": [{ "boundingBox": "57,472,99,32", "text": "NEWS" }]
+      }
+    ]
+  },
+  {
+    "boundingBox": "623,168,171,28",
+    "lines": [
+      {
+        "boundingBox": "623,168,171,28",
+        "words": [{ "boundingBox": "623,168,171,28", "text": "EARTHER" }]
+      }
+    ]
+  },
+  {
+    "boundingBox": "848,167,278,30",
+    "lines": [
+      {
+        "boundingBox": "848,167,278,30",
+        "words": [
+          { "boundingBox": "848,167,161,30", "text": "SCIENCE" },
+          { "boundingBox": "1065,167,61,30", "text": "109" }
+        ]
+      }
+    ]
+  },
+  {
+    "boundingBox": "1182,168,53,28",
+    "lines": [
+      {
+        "boundingBox": "1182,168,53,28",
+        "words": [{ "boundingBox": "1182,168,53,28", "text": "FIE" }]
+      }
+    ]
+  },
+  {
+    "boundingBox": "54,577,1047,485",
+    "lines": [
+      {
+        "boundingBox": "59,577,1034,65",
+        "words": [
+          { "boundingBox": "59,577,257,65", "text": "Leaked" },
+          { "boundingBox": "348,577,211,65", "text": "Parler" },
+          { "boundingBox": "586,577,162,65", "text": "Data" },
+          { "boundingBox": "780,577,219,65", "text": "Points" },
+          { "boundingBox": "1023,582,70,60", "text": "to" }
+        ]
+      },
+      {
+        "boundingBox": "60,690,1041,78",
+        "words": [
+          { "boundingBox": "60,691,200,65", "text": "Users" },
+          { "boundingBox": "286,696,68,60", "text": "at" },
+          { "boundingBox": "381,691,214,65", "text": "Police" },
+          { "boundingBox": "620,690,314,78", "text": "Stations," },
+          { "boundingBox": "965,690,136,66", "text": "U.S." }
+        ]
+      },
+      {
+        "boundingBox": "60,805,505,83",
+        "words": [
+          { "boundingBox": "60,805,267,83", "text": "Military" },
+          { "boundingBox": "354,805,211,65", "text": "Bases" }
+        ]
+      },
+      {
+        "boundingBox": "57,959,591,37",
+        "words": [
+          { "boundingBox": "57,960,63,33", "text": "Dell" },
+          { "boundingBox": "135,959,157,34", "text": "Cameron" },
+          { "boundingBox": "306,964,55,29", "text": "and" },
+          { "boundingBox": "375,963,102,33", "text": "Dhruv" },
+          { "boundingBox": "491,963,157,33", "text": "Mehrotra" }
+        ]
+      },
+      {
+        "boundingBox": "54,1019,323,43",
+        "words": [
+          { "boundingBox": "54,1020,178,42", "text": "Yesterday" },
+          { "boundingBox": "244,1019,133,34", "text": "2.\u202226PM" }
+        ]
+      }
+    ]
+  },
+  {
+    "boundingBox": "81,1184,42,34",
+    "lines": [
+      {
+        "boundingBox": "81,1184,42,34",
+        "words": [{ "boundingBox": "81,1184,42,34", "text": "33" }]
+      }
+    ]
+  },
+  {
+    "boundingBox": "211,1184,20,34",
+    "lines": [
+      {
+        "boundingBox": "211,1184,20,34",
+        "words": [{ "boundingBox": "211,1184,20,34", "text": "3" }]
+      }
+    ]
+  }
+]

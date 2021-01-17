@@ -5,8 +5,8 @@ from flask_cors import CORS
 
 import config
 
-from endpoints.home import home
 from endpoints.upload import upload
+from endpoints.test import test
 
 # folder where file uploads exist
 UPLOAD_FOLDER = config.server_path+'/static/uploads'
@@ -14,8 +14,8 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 app = Flask(__name__)
 
-app.register_blueprint(home, url_prefix='')
 app.register_blueprint(upload, url_prefix='')
+app.register_blueprint(test, url_prefix='')
 
 # enables cors
 CORS(app)
@@ -23,7 +23,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = config.sql_alchemy_database_uri
 app.config['SECRET_KEY'] = config.secret_key
 db = SQLAlchemy(app)
 
-# When deleting and reinitializing db, I need this for the table to instantiate
+# When deleting and reinitializing db, I need this for the tables to instantiate
 '''
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
