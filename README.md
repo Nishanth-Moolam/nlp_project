@@ -22,9 +22,12 @@ You must also create your own secrets file:
 touch secrets.py
 ```
 
+and add your secrets:
+
 ```python
 secret_key = ''
 rapidapi_key = ''
+expertai_key = ''
 ```
 
 and finally run on localhost:
@@ -33,9 +36,10 @@ and finally run on localhost:
 python app.py
 ```
 
-## Important!
+### Important!
 
-This application uses the following external api's: (you must use your api keys in the secrets.py file you create!)
+This application uses the following external api's: (you must use your own api keys in the secrets.py file you create!)
 
-- Microsoft Computer Vision API
-- expert.ai Natural Language API
+- Microsoft Computer Vision API (through rapidapi) (https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-computer-vision3/endpoints)
+
+- expert.ai Natural Language API (https://developer.expert.ai/ui)

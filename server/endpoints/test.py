@@ -8,7 +8,7 @@ import os
 test = Blueprint('test', __name__)
 
 
-class UseMsOcr(MethodView):
+class UseExpert(MethodView):
 
     def get(self):
         return 'test endpoint'
@@ -18,5 +18,5 @@ class UseMsOcr(MethodView):
         return 'test endpoint'
 
 
-test.add_url_rule('/test', view_func=UseMsOcr.as_view('test'))
+test.add_url_rule('/test', view_func=UseExpert.as_view('test'))
 

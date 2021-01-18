@@ -1,0 +1,2590 @@
+{
+    "data": {
+        "content": "I am eighteen years old, and I just moved out of my parent's house. I am now renting a room in a house, in a town about 20 km away. It's small, and I have to live a really cheap lifestyle, but I am so happy about it! I am eighteen years old, and I just moved out of my parent's house. I am now renting a room in a house, in a town about 20 km away. It's small, and I have ",
+        "entities": [
+            {
+                "lemma": "20 kilometer",
+                "positions": [
+                    {
+                        "end": 125,
+                        "start": 120
+                    },
+                    {
+                        "end": 342,
+                        "start": 337
+                    }
+                ],
+                "syncon": -1,
+                "type": "MEA"
+            }
+        ],
+        "knowledge": [
+            {
+                "label": "artifact.construction_work",
+                "properties": [
+                    {
+                        "type": "GeoNamesId",
+                        "value": "S.HSE"
+                    },
+                    {
+                        "type": "WikiDataId",
+                        "value": "Q3947"
+                    }
+                ],
+                "syncon": 16464
+            },
+            {
+                "label": "place.room",
+                "properties": [
+                    {
+                        "type": "WikiDataId",
+                        "value": "Q180516"
+                    }
+                ],
+                "syncon": 19044
+            },
+            {
+                "label": "action.activity",
+                "properties": [
+                    {
+                        "type": "WikiDataId",
+                        "value": "Q32090"
+                    }
+                ],
+                "syncon": 22863
+            },
+            {
+                "label": "geographic_element.town",
+                "properties": [
+                    {
+                        "type": "GeoNamesId",
+                        "value": "P.PPL"
+                    },
+                    {
+                        "type": "WikiDataId",
+                        "value": "Q515"
+                    }
+                ],
+                "syncon": 37740
+            },
+            {
+                "label": "person",
+                "syncon": 44049
+            },
+            {
+                "label": "other",
+                "syncon": 80157
+            },
+            {
+                "label": "other",
+                "syncon": 82426
+            },
+            {
+                "label": "other",
+                "syncon": 82574
+            }
+        ],
+        "language": "en",
+        "mainLemmas": [
+            {
+                "positions": [
+                    {
+                        "end": 91,
+                        "start": 87
+                    },
+                    {
+                        "end": 308,
+                        "start": 304
+                    }
+                ],
+                "score": 30.29,
+                "value": "room"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 66,
+                        "start": 61
+                    },
+                    {
+                        "end": 102,
+                        "start": 97
+                    },
+                    {
+                        "end": 283,
+                        "start": 278
+                    },
+                    {
+                        "end": 319,
+                        "start": 314
+                    }
+                ],
+                "score": 22.89,
+                "value": "house"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 58,
+                        "start": 52
+                    },
+                    {
+                        "end": 275,
+                        "start": 269
+                    }
+                ],
+                "score": 17.89,
+                "value": "parent"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 113,
+                        "start": 109
+                    },
+                    {
+                        "end": 330,
+                        "start": 326
+                    }
+                ],
+                "score": 16.7,
+                "value": "town"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 187,
+                        "start": 178
+                    }
+                ],
+                "score": 11.19,
+                "value": "lifestyle"
+            }
+        ],
+        "mainPhrases": [
+            {
+                "positions": [
+                    {
+                        "end": 66,
+                        "start": 52
+                    },
+                    {
+                        "end": 283,
+                        "start": 269
+                    }
+                ],
+                "score": 46.59,
+                "value": "parent's house"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 102,
+                        "start": 87
+                    },
+                    {
+                        "end": 319,
+                        "start": 304
+                    }
+                ],
+                "score": 22.5,
+                "value": "room in a house"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 91,
+                        "start": 77
+                    },
+                    {
+                        "end": 308,
+                        "start": 294
+                    }
+                ],
+                "score": 19.1,
+                "value": "rent a room"
+            },
+            {
+                "positions": [
+                    {
+                        "end": 187,
+                        "start": 172
+                    }
+                ],
+                "score": 11.69,
+                "value": "cheap lifestyle"
+            }
+        ],
+        "mainSentences": [
+            {
+                "end": 131,
+                "score": 34.4,
+                "start": 68,
+                "value": "I am now renting a room in a house, in a town about 20 km away."
+            },
+            {
+                "end": 348,
+                "score": 24.0,
+                "start": 285,
+                "value": "I am now renting a room in a house, in a town about 20 km away."
+            },
+            {
+                "end": 67,
+                "score": 20.89,
+                "start": 0,
+                "value": "I am eighteen years old, and I just moved out of my parent's house."
+            }
+        ],
+        "mainSyncons": [
+            {
+                "positions": [
+                    {
+                        "end": 91,
+                        "start": 87
+                    },
+                    {
+                        "end": 308,
+                        "start": 304
+                    }
+                ],
+                "score": 29.2,
+                "syncon": 19044
+            },
+            {
+                "positions": [
+                    {
+                        "end": 66,
+                        "start": 61
+                    },
+                    {
+                        "end": 102,
+                        "start": 97
+                    },
+                    {
+                        "end": 283,
+                        "start": 278
+                    },
+                    {
+                        "end": 319,
+                        "start": 314
+                    }
+                ],
+                "score": 25.7,
+                "syncon": 16464
+            },
+            {
+                "positions": [
+                    {
+                        "end": 58,
+                        "start": 52
+                    },
+                    {
+                        "end": 275,
+                        "start": 269
+                    }
+                ],
+                "score": 17.6,
+                "syncon": 44049
+            },
+            {
+                "positions": [
+                    {
+                        "end": 113,
+                        "start": 109
+                    },
+                    {
+                        "end": 330,
+                        "start": 326
+                    }
+                ],
+                "score": 16.6,
+                "syncon": 37740
+            },
+            {
+                "positions": [
+                    {
+                        "end": 187,
+                        "start": 178
+                    }
+                ],
+                "score": 9.6,
+                "syncon": 22863
+            },
+            {
+                "positions": [
+                    {
+                        "end": 177,
+                        "start": 172
+                    }
+                ],
+                "score": 0.3,
+                "syncon": 80157
+            },
+            {
+                "positions": [
+                    {
+                        "end": 206,
+                        "start": 201
+                    }
+                ],
+                "score": 0.3,
+                "syncon": 82426
+            },
+            {
+                "positions": [
+                    {
+                        "end": 142,
+                        "start": 137
+                    },
+                    {
+                        "end": 359,
+                        "start": 354
+                    }
+                ],
+                "score": 0.2,
+                "syncon": 82574
+            }
+        ],
+        "paragraphs": [
+            {
+                "end": 371,
+                "sentences": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "start": 0
+            }
+        ],
+        "phrases": [
+            {
+                "end": 1,
+                "start": 0,
+                "tokens": [
+                    0
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 23,
+                "start": 2,
+                "tokens": [
+                    1,
+                    2
+                ],
+                "type": "PN"
+            },
+            {
+                "end": 24,
+                "start": 23,
+                "tokens": [
+                    3
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 28,
+                "start": 25,
+                "tokens": [
+                    4
+                ],
+                "type": "CP"
+            },
+            {
+                "end": 30,
+                "start": 29,
+                "tokens": [
+                    5
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 41,
+                "start": 31,
+                "tokens": [
+                    6,
+                    7
+                ],
+                "type": "VP"
+            },
+            {
+                "end": 60,
+                "start": 42,
+                "tokens": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 66,
+                "start": 61,
+                "tokens": [
+                    13
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 67,
+                "start": 66,
+                "tokens": [
+                    14
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 69,
+                "start": 68,
+                "tokens": [
+                    15
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 84,
+                "start": 70,
+                "tokens": [
+                    16,
+                    17,
+                    18
+                ],
+                "type": "VP"
+            },
+            {
+                "end": 91,
+                "start": 85,
+                "tokens": [
+                    19,
+                    20
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 102,
+                "start": 92,
+                "tokens": [
+                    21,
+                    22,
+                    23
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 103,
+                "start": 102,
+                "tokens": [
+                    24
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 113,
+                "start": 104,
+                "tokens": [
+                    25,
+                    26,
+                    27
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 130,
+                "start": 114,
+                "tokens": [
+                    28,
+                    29,
+                    30
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 131,
+                "start": 130,
+                "tokens": [
+                    31
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 134,
+                "start": 132,
+                "tokens": [
+                    32
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 142,
+                "start": 134,
+                "tokens": [
+                    33,
+                    34
+                ],
+                "type": "PN"
+            },
+            {
+                "end": 143,
+                "start": 142,
+                "tokens": [
+                    35
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 147,
+                "start": 144,
+                "tokens": [
+                    36
+                ],
+                "type": "CP"
+            },
+            {
+                "end": 149,
+                "start": 148,
+                "tokens": [
+                    37
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 162,
+                "start": 150,
+                "tokens": [
+                    38,
+                    39,
+                    40
+                ],
+                "type": "VP"
+            },
+            {
+                "end": 171,
+                "start": 163,
+                "tokens": [
+                    41,
+                    42
+                ],
+                "type": "DP"
+            },
+            {
+                "end": 187,
+                "start": 172,
+                "tokens": [
+                    43,
+                    44
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 188,
+                "start": 187,
+                "tokens": [
+                    45
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 192,
+                "start": 189,
+                "tokens": [
+                    46
+                ],
+                "type": "CP"
+            },
+            {
+                "end": 194,
+                "start": 193,
+                "tokens": [
+                    47
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 206,
+                "start": 195,
+                "tokens": [
+                    48,
+                    49,
+                    50
+                ],
+                "type": "PN"
+            },
+            {
+                "end": 215,
+                "start": 207,
+                "tokens": [
+                    51,
+                    52
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 216,
+                "start": 215,
+                "tokens": [
+                    53
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 218,
+                "start": 217,
+                "tokens": [
+                    54
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 240,
+                "start": 219,
+                "tokens": [
+                    55,
+                    56
+                ],
+                "type": "PN"
+            },
+            {
+                "end": 241,
+                "start": 240,
+                "tokens": [
+                    57
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 245,
+                "start": 242,
+                "tokens": [
+                    58
+                ],
+                "type": "CP"
+            },
+            {
+                "end": 247,
+                "start": 246,
+                "tokens": [
+                    59
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 258,
+                "start": 248,
+                "tokens": [
+                    60,
+                    61
+                ],
+                "type": "VP"
+            },
+            {
+                "end": 277,
+                "start": 259,
+                "tokens": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 283,
+                "start": 278,
+                "tokens": [
+                    67
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 284,
+                "start": 283,
+                "tokens": [
+                    68
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 286,
+                "start": 285,
+                "tokens": [
+                    69
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 301,
+                "start": 287,
+                "tokens": [
+                    70,
+                    71,
+                    72
+                ],
+                "type": "VP"
+            },
+            {
+                "end": 308,
+                "start": 302,
+                "tokens": [
+                    73,
+                    74
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 319,
+                "start": 309,
+                "tokens": [
+                    75,
+                    76,
+                    77
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 320,
+                "start": 319,
+                "tokens": [
+                    78
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 330,
+                "start": 321,
+                "tokens": [
+                    79,
+                    80,
+                    81
+                ],
+                "type": "PP"
+            },
+            {
+                "end": 347,
+                "start": 331,
+                "tokens": [
+                    82,
+                    83,
+                    84
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 348,
+                "start": 347,
+                "tokens": [
+                    85
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 351,
+                "start": 349,
+                "tokens": [
+                    86
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 359,
+                "start": 351,
+                "tokens": [
+                    87,
+                    88
+                ],
+                "type": "PN"
+            },
+            {
+                "end": 360,
+                "start": 359,
+                "tokens": [
+                    89
+                ],
+                "type": "NA"
+            },
+            {
+                "end": 364,
+                "start": 361,
+                "tokens": [
+                    90
+                ],
+                "type": "CP"
+            },
+            {
+                "end": 366,
+                "start": 365,
+                "tokens": [
+                    91
+                ],
+                "type": "NP"
+            },
+            {
+                "end": 371,
+                "start": 367,
+                "tokens": [
+                    92
+                ],
+                "type": "VP"
+            },
+            {
+                "end": 371,
+                "start": 371,
+                "tokens": [],
+                "type": "CR"
+            }
+        ],
+        "sentences": [
+            {
+                "end": 67,
+                "phrases": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "start": 0
+            },
+            {
+                "end": 131,
+                "phrases": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ],
+                "start": 68
+            },
+            {
+                "end": 216,
+                "phrases": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                ],
+                "start": 132
+            },
+            {
+                "end": 284,
+                "phrases": [
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                ],
+                "start": 217
+            },
+            {
+                "end": 348,
+                "phrases": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                ],
+                "start": 285
+            },
+            {
+                "end": 371,
+                "phrases": [
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54
+                ],
+                "start": 349
+            }
+        ],
+        "tokens": [
+            {
+                "dependency": {
+                    "head": 2,
+                    "id": 0,
+                    "label": "nsubj"
+                },
+                "end": 1,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 0,
+                "pos": "PRON",
+                "sentence": 0,
+                "start": 0,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 2,
+                    "id": 1,
+                    "label": "cop"
+                },
+                "end": 4,
+                "lemma": "be",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 1,
+                "pos": "AUX",
+                "sentence": 0,
+                "start": 2,
+                "syncon": 72504,
+                "type": "VER"
+            },
+            {
+                "atoms": [
+                    {
+                        "end": 13,
+                        "lemma": "eighteen",
+                        "start": 5,
+                        "type": "ADJ"
+                    },
+                    {
+                        "end": 19,
+                        "lemma": "year",
+                        "start": 14,
+                        "type": "NOU"
+                    },
+                    {
+                        "end": 23,
+                        "lemma": "old",
+                        "start": 20,
+                        "type": "ADJ"
+                    }
+                ],
+                "dependency": {
+                    "head": 2,
+                    "id": 2,
+                    "label": "root"
+                },
+                "end": 23,
+                "lemma": "eighteen years old",
+                "morphology": "NumType=Card",
+                "paragraph": 0,
+                "phrase": 1,
+                "pos": "NUM",
+                "sentence": 0,
+                "start": 5,
+                "syncon": -1,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 2,
+                    "id": 3,
+                    "label": "punct"
+                },
+                "end": 24,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 2,
+                "pos": "PUNCT",
+                "sentence": 0,
+                "start": 23,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 7,
+                    "id": 4,
+                    "label": "cc"
+                },
+                "end": 28,
+                "lemma": "and",
+                "paragraph": 0,
+                "phrase": 3,
+                "pos": "CCONJ",
+                "sentence": 0,
+                "start": 25,
+                "syncon": -1,
+                "type": "CON"
+            },
+            {
+                "dependency": {
+                    "head": 7,
+                    "id": 5,
+                    "label": "nsubj"
+                },
+                "end": 30,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 4,
+                "pos": "PRON",
+                "sentence": 0,
+                "start": 29,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 7,
+                    "id": 6,
+                    "label": "advmod"
+                },
+                "end": 35,
+                "lemma": "just",
+                "paragraph": 0,
+                "phrase": 5,
+                "pos": "ADV",
+                "sentence": 0,
+                "start": 31,
+                "syncon": 157672,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 2,
+                    "id": 7,
+                    "label": "conj"
+                },
+                "end": 41,
+                "lemma": "move",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 5,
+                "pos": "VERB",
+                "sentence": 0,
+                "start": 36,
+                "syncon": 69712,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 11,
+                    "id": 8,
+                    "label": "case"
+                },
+                "end": 45,
+                "lemma": "out",
+                "paragraph": 0,
+                "phrase": 6,
+                "pos": "ADP",
+                "sentence": 0,
+                "start": 42,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 11,
+                    "id": 9,
+                    "label": "case"
+                },
+                "end": 48,
+                "lemma": "of",
+                "paragraph": 0,
+                "phrase": 6,
+                "pos": "ADP",
+                "sentence": 0,
+                "start": 46,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 11,
+                    "id": 10,
+                    "label": "nmod:poss"
+                },
+                "end": 51,
+                "lemma": "my",
+                "morphology": "Poss=Yes|PronType=Prs|Person=1",
+                "paragraph": 0,
+                "phrase": 6,
+                "pos": "PRON",
+                "sentence": 0,
+                "start": 49,
+                "syncon": -1,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 13,
+                    "id": 11,
+                    "label": "nmod:poss"
+                },
+                "end": 58,
+                "lemma": "parent",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 6,
+                "pos": "NOUN",
+                "sentence": 0,
+                "start": 52,
+                "syncon": 44049,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 11,
+                    "id": 12,
+                    "label": "case"
+                },
+                "end": 60,
+                "lemma": "'s",
+                "paragraph": 0,
+                "phrase": 6,
+                "pos": "PART",
+                "sentence": 0,
+                "start": 58,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 7,
+                    "id": 13,
+                    "label": "obl"
+                },
+                "end": 66,
+                "lemma": "house",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 7,
+                "pos": "NOUN",
+                "sentence": 0,
+                "start": 61,
+                "syncon": 16464,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 2,
+                    "id": 14,
+                    "label": "punct"
+                },
+                "end": 67,
+                "lemma": ".",
+                "paragraph": 0,
+                "phrase": 8,
+                "pos": "PUNCT",
+                "sentence": 0,
+                "start": 66,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 18,
+                    "id": 15,
+                    "label": "nsubj"
+                },
+                "end": 69,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 9,
+                "pos": "PRON",
+                "sentence": 1,
+                "start": 68,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 18,
+                    "id": 16,
+                    "label": "aux"
+                },
+                "end": 72,
+                "lemma": "am",
+                "paragraph": 0,
+                "phrase": 10,
+                "pos": "AUX",
+                "sentence": 1,
+                "start": 70,
+                "syncon": -1,
+                "type": "AUX"
+            },
+            {
+                "dependency": {
+                    "head": 18,
+                    "id": 17,
+                    "label": "advmod"
+                },
+                "end": 76,
+                "lemma": "now",
+                "paragraph": 0,
+                "phrase": 10,
+                "pos": "ADV",
+                "sentence": 1,
+                "start": 73,
+                "syncon": 157671,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 18,
+                    "id": 18,
+                    "label": "root"
+                },
+                "end": 84,
+                "lemma": "rent",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 10,
+                "pos": "VERB",
+                "sentence": 1,
+                "start": 77,
+                "syncon": 136940,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 20,
+                    "id": 19,
+                    "label": "det"
+                },
+                "end": 86,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 11,
+                "pos": "DET",
+                "sentence": 1,
+                "start": 85,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 18,
+                    "id": 20,
+                    "label": "obj"
+                },
+                "end": 91,
+                "lemma": "room",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 11,
+                "pos": "NOUN",
+                "sentence": 1,
+                "start": 87,
+                "syncon": 19044,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 23,
+                    "id": 21,
+                    "label": "case"
+                },
+                "end": 94,
+                "lemma": "in",
+                "paragraph": 0,
+                "phrase": 12,
+                "pos": "ADP",
+                "sentence": 1,
+                "start": 92,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 23,
+                    "id": 22,
+                    "label": "det"
+                },
+                "end": 96,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 12,
+                "pos": "DET",
+                "sentence": 1,
+                "start": 95,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 20,
+                    "id": 23,
+                    "label": "nmod"
+                },
+                "end": 102,
+                "lemma": "house",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 12,
+                "pos": "NOUN",
+                "sentence": 1,
+                "start": 97,
+                "syncon": 16464,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 23,
+                    "id": 24,
+                    "label": "punct"
+                },
+                "end": 103,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 13,
+                "pos": "PUNCT",
+                "sentence": 1,
+                "start": 102,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 27,
+                    "id": 25,
+                    "label": "case"
+                },
+                "end": 106,
+                "lemma": "in",
+                "paragraph": 0,
+                "phrase": 14,
+                "pos": "ADP",
+                "sentence": 1,
+                "start": 104,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 27,
+                    "id": 26,
+                    "label": "det"
+                },
+                "end": 108,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 14,
+                "pos": "DET",
+                "sentence": 1,
+                "start": 107,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 23,
+                    "id": 27,
+                    "label": "conj"
+                },
+                "end": 113,
+                "lemma": "town",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 14,
+                "pos": "NOUN",
+                "sentence": 1,
+                "start": 109,
+                "syncon": 37740,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 29,
+                    "id": 28,
+                    "label": "advmod"
+                },
+                "end": 119,
+                "lemma": "about",
+                "paragraph": 0,
+                "phrase": 15,
+                "pos": "ADV",
+                "sentence": 1,
+                "start": 114,
+                "syncon": 158291,
+                "type": "ADV"
+            },
+            {
+                "atoms": [
+                    {
+                        "end": 122,
+                        "lemma": "20",
+                        "start": 120,
+                        "type": "ADJ"
+                    },
+                    {
+                        "end": 125,
+                        "lemma": "km",
+                        "start": 123,
+                        "type": "NOU"
+                    }
+                ],
+                "dependency": {
+                    "head": 18,
+                    "id": 29,
+                    "label": "obl"
+                },
+                "end": 125,
+                "lemma": "20 kilometer",
+                "paragraph": 0,
+                "phrase": 15,
+                "pos": "NOUN",
+                "sentence": 1,
+                "start": 120,
+                "syncon": -1,
+                "type": "NOU.MEA",
+                "vsyn": {
+                    "id": -436162,
+                    "parent": 105829
+                }
+            },
+            {
+                "dependency": {
+                    "head": 29,
+                    "id": 30,
+                    "label": "advmod"
+                },
+                "end": 130,
+                "lemma": "away",
+                "paragraph": 0,
+                "phrase": 15,
+                "pos": "ADV",
+                "sentence": 1,
+                "start": 126,
+                "syncon": 160844,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 18,
+                    "id": 31,
+                    "label": "punct"
+                },
+                "end": 131,
+                "lemma": ".",
+                "paragraph": 0,
+                "phrase": 16,
+                "pos": "PUNCT",
+                "sentence": 1,
+                "start": 130,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 34,
+                    "id": 32,
+                    "label": "nsubj"
+                },
+                "end": 134,
+                "lemma": "It",
+                "morphology": "Gender=Neut|Number=Sing|PronType=Prs|Person=3",
+                "paragraph": 0,
+                "phrase": 17,
+                "pos": "PRON",
+                "sentence": 2,
+                "start": 132,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "atoms": [
+                    {
+                        "end": 135,
+                        "lemma": "'",
+                        "start": 134,
+                        "type": "PNT"
+                    },
+                    {
+                        "end": 136,
+                        "lemma": "s",
+                        "start": 135,
+                        "type": "VER"
+                    }
+                ],
+                "dependency": {
+                    "head": 34,
+                    "id": 33,
+                    "label": "cop"
+                },
+                "end": 136,
+                "lemma": "be",
+                "morphology": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 18,
+                "pos": "AUX",
+                "sentence": 2,
+                "start": 134,
+                "syncon": 72504,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 34,
+                    "id": 34,
+                    "label": "root"
+                },
+                "end": 142,
+                "lemma": "small",
+                "paragraph": 0,
+                "phrase": 18,
+                "pos": "ADJ",
+                "sentence": 2,
+                "start": 137,
+                "syncon": 82574,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 34,
+                    "id": 35,
+                    "label": "punct"
+                },
+                "end": 143,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 19,
+                "pos": "PUNCT",
+                "sentence": 2,
+                "start": 142,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 38,
+                    "id": 36,
+                    "label": "cc"
+                },
+                "end": 147,
+                "lemma": "and",
+                "paragraph": 0,
+                "phrase": 20,
+                "pos": "CCONJ",
+                "sentence": 2,
+                "start": 144,
+                "syncon": -1,
+                "type": "CON"
+            },
+            {
+                "dependency": {
+                    "head": 38,
+                    "id": 37,
+                    "label": "nsubj"
+                },
+                "end": 149,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 21,
+                "pos": "PRON",
+                "sentence": 2,
+                "start": 148,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 34,
+                    "id": 38,
+                    "label": "conj"
+                },
+                "end": 154,
+                "lemma": "have",
+                "paragraph": 0,
+                "phrase": 22,
+                "pos": "VERB",
+                "sentence": 2,
+                "start": 150,
+                "syncon": -1,
+                "type": "AUX"
+            },
+            {
+                "dependency": {
+                    "head": 40,
+                    "id": 39,
+                    "label": "mark"
+                },
+                "end": 157,
+                "lemma": "to",
+                "paragraph": 0,
+                "phrase": 22,
+                "pos": "PART",
+                "sentence": 2,
+                "start": 155,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 38,
+                    "id": 40,
+                    "label": "conj"
+                },
+                "end": 162,
+                "lemma": "live",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 22,
+                "pos": "VERB",
+                "sentence": 2,
+                "start": 158,
+                "syncon": 153669,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 42,
+                    "id": 41,
+                    "label": "det"
+                },
+                "end": 164,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 23,
+                "pos": "DET",
+                "sentence": 2,
+                "start": 163,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 40,
+                    "id": 42,
+                    "label": "advmod"
+                },
+                "end": 171,
+                "lemma": "really",
+                "paragraph": 0,
+                "phrase": 23,
+                "pos": "ADV",
+                "sentence": 2,
+                "start": 165,
+                "syncon": 158523,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 44,
+                    "id": 43,
+                    "label": "amod"
+                },
+                "end": 177,
+                "lemma": "cheap",
+                "paragraph": 0,
+                "phrase": 24,
+                "pos": "ADJ",
+                "sentence": 2,
+                "start": 172,
+                "syncon": 80157,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 40,
+                    "id": 44,
+                    "label": "obj"
+                },
+                "end": 187,
+                "lemma": "lifestyle",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 24,
+                "pos": "NOUN",
+                "sentence": 2,
+                "start": 178,
+                "syncon": 22863,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 40,
+                    "id": 45,
+                    "label": "punct"
+                },
+                "end": 188,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 25,
+                "pos": "PUNCT",
+                "sentence": 2,
+                "start": 187,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 50,
+                    "id": 46,
+                    "label": "cc"
+                },
+                "end": 192,
+                "lemma": "but",
+                "paragraph": 0,
+                "phrase": 26,
+                "pos": "CCONJ",
+                "sentence": 2,
+                "start": 189,
+                "syncon": 160458,
+                "type": "CON"
+            },
+            {
+                "dependency": {
+                    "head": 50,
+                    "id": 47,
+                    "label": "nsubj"
+                },
+                "end": 194,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 27,
+                "pos": "PRON",
+                "sentence": 2,
+                "start": 193,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 50,
+                    "id": 48,
+                    "label": "cop"
+                },
+                "end": 197,
+                "lemma": "be",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 28,
+                "pos": "AUX",
+                "sentence": 2,
+                "start": 195,
+                "syncon": 72504,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 50,
+                    "id": 49,
+                    "label": "advmod"
+                },
+                "end": 200,
+                "lemma": "so",
+                "paragraph": 0,
+                "phrase": 28,
+                "pos": "ADV",
+                "sentence": 2,
+                "start": 198,
+                "syncon": -1,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 40,
+                    "id": 50,
+                    "label": "conj"
+                },
+                "end": 206,
+                "lemma": "happy",
+                "paragraph": 0,
+                "phrase": 28,
+                "pos": "ADJ",
+                "sentence": 2,
+                "start": 201,
+                "syncon": 82426,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 52,
+                    "id": 51,
+                    "label": "case"
+                },
+                "end": 212,
+                "lemma": "about",
+                "paragraph": 0,
+                "phrase": 29,
+                "pos": "ADP",
+                "sentence": 2,
+                "start": 207,
+                "syncon": 185412,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 50,
+                    "id": 52,
+                    "label": "obl"
+                },
+                "end": 215,
+                "lemma": "it",
+                "morphology": "Gender=Neut|Number=Sing|PronType=Prs|Person=3",
+                "paragraph": 0,
+                "phrase": 29,
+                "pos": "PRON",
+                "sentence": 2,
+                "start": 213,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 34,
+                    "id": 53,
+                    "label": "punct"
+                },
+                "end": 216,
+                "lemma": "!",
+                "paragraph": 0,
+                "phrase": 30,
+                "pos": "PUNCT",
+                "sentence": 2,
+                "start": 215,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 56,
+                    "id": 54,
+                    "label": "nsubj"
+                },
+                "end": 218,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 31,
+                "pos": "PRON",
+                "sentence": 3,
+                "start": 217,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 56,
+                    "id": 55,
+                    "label": "cop"
+                },
+                "end": 221,
+                "lemma": "be",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 32,
+                "pos": "AUX",
+                "sentence": 3,
+                "start": 219,
+                "syncon": 72504,
+                "type": "VER"
+            },
+            {
+                "atoms": [
+                    {
+                        "end": 230,
+                        "lemma": "eighteen",
+                        "start": 222,
+                        "type": "ADJ"
+                    },
+                    {
+                        "end": 236,
+                        "lemma": "year",
+                        "start": 231,
+                        "type": "NOU"
+                    },
+                    {
+                        "end": 240,
+                        "lemma": "old",
+                        "start": 237,
+                        "type": "ADJ"
+                    }
+                ],
+                "dependency": {
+                    "head": 56,
+                    "id": 56,
+                    "label": "root"
+                },
+                "end": 240,
+                "lemma": "eighteen years old",
+                "morphology": "NumType=Card",
+                "paragraph": 0,
+                "phrase": 32,
+                "pos": "NUM",
+                "sentence": 3,
+                "start": 222,
+                "syncon": -1,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 56,
+                    "id": 57,
+                    "label": "punct"
+                },
+                "end": 241,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 33,
+                "pos": "PUNCT",
+                "sentence": 3,
+                "start": 240,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 61,
+                    "id": 58,
+                    "label": "cc"
+                },
+                "end": 245,
+                "lemma": "and",
+                "paragraph": 0,
+                "phrase": 34,
+                "pos": "CCONJ",
+                "sentence": 3,
+                "start": 242,
+                "syncon": -1,
+                "type": "CON"
+            },
+            {
+                "dependency": {
+                    "head": 61,
+                    "id": 59,
+                    "label": "nsubj"
+                },
+                "end": 247,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 35,
+                "pos": "PRON",
+                "sentence": 3,
+                "start": 246,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 61,
+                    "id": 60,
+                    "label": "advmod"
+                },
+                "end": 252,
+                "lemma": "just",
+                "paragraph": 0,
+                "phrase": 36,
+                "pos": "ADV",
+                "sentence": 3,
+                "start": 248,
+                "syncon": 157672,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 56,
+                    "id": 61,
+                    "label": "conj"
+                },
+                "end": 258,
+                "lemma": "move",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 36,
+                "pos": "VERB",
+                "sentence": 3,
+                "start": 253,
+                "syncon": 69712,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 65,
+                    "id": 62,
+                    "label": "case"
+                },
+                "end": 262,
+                "lemma": "out",
+                "paragraph": 0,
+                "phrase": 37,
+                "pos": "ADP",
+                "sentence": 3,
+                "start": 259,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 65,
+                    "id": 63,
+                    "label": "case"
+                },
+                "end": 265,
+                "lemma": "of",
+                "paragraph": 0,
+                "phrase": 37,
+                "pos": "ADP",
+                "sentence": 3,
+                "start": 263,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 65,
+                    "id": 64,
+                    "label": "nmod:poss"
+                },
+                "end": 268,
+                "lemma": "my",
+                "morphology": "Poss=Yes|PronType=Prs|Person=1",
+                "paragraph": 0,
+                "phrase": 37,
+                "pos": "PRON",
+                "sentence": 3,
+                "start": 266,
+                "syncon": -1,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 67,
+                    "id": 65,
+                    "label": "nmod:poss"
+                },
+                "end": 275,
+                "lemma": "parent",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 37,
+                "pos": "NOUN",
+                "sentence": 3,
+                "start": 269,
+                "syncon": 44049,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 65,
+                    "id": 66,
+                    "label": "case"
+                },
+                "end": 277,
+                "lemma": "'s",
+                "paragraph": 0,
+                "phrase": 37,
+                "pos": "PART",
+                "sentence": 3,
+                "start": 275,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 61,
+                    "id": 67,
+                    "label": "obl"
+                },
+                "end": 283,
+                "lemma": "house",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 38,
+                "pos": "NOUN",
+                "sentence": 3,
+                "start": 278,
+                "syncon": 16464,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 56,
+                    "id": 68,
+                    "label": "punct"
+                },
+                "end": 284,
+                "lemma": ".",
+                "paragraph": 0,
+                "phrase": 39,
+                "pos": "PUNCT",
+                "sentence": 3,
+                "start": 283,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 72,
+                    "id": 69,
+                    "label": "nsubj"
+                },
+                "end": 286,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 40,
+                "pos": "PRON",
+                "sentence": 4,
+                "start": 285,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 72,
+                    "id": 70,
+                    "label": "aux"
+                },
+                "end": 289,
+                "lemma": "am",
+                "paragraph": 0,
+                "phrase": 41,
+                "pos": "AUX",
+                "sentence": 4,
+                "start": 287,
+                "syncon": -1,
+                "type": "AUX"
+            },
+            {
+                "dependency": {
+                    "head": 72,
+                    "id": 71,
+                    "label": "advmod"
+                },
+                "end": 293,
+                "lemma": "now",
+                "paragraph": 0,
+                "phrase": 41,
+                "pos": "ADV",
+                "sentence": 4,
+                "start": 290,
+                "syncon": 157671,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 72,
+                    "id": 72,
+                    "label": "root"
+                },
+                "end": 301,
+                "lemma": "rent",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 41,
+                "pos": "VERB",
+                "sentence": 4,
+                "start": 294,
+                "syncon": 136940,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 74,
+                    "id": 73,
+                    "label": "det"
+                },
+                "end": 303,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 42,
+                "pos": "DET",
+                "sentence": 4,
+                "start": 302,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 72,
+                    "id": 74,
+                    "label": "obj"
+                },
+                "end": 308,
+                "lemma": "room",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 42,
+                "pos": "NOUN",
+                "sentence": 4,
+                "start": 304,
+                "syncon": 19044,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 77,
+                    "id": 75,
+                    "label": "case"
+                },
+                "end": 311,
+                "lemma": "in",
+                "paragraph": 0,
+                "phrase": 43,
+                "pos": "ADP",
+                "sentence": 4,
+                "start": 309,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 77,
+                    "id": 76,
+                    "label": "det"
+                },
+                "end": 313,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 43,
+                "pos": "DET",
+                "sentence": 4,
+                "start": 312,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 74,
+                    "id": 77,
+                    "label": "nmod"
+                },
+                "end": 319,
+                "lemma": "house",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 43,
+                "pos": "NOUN",
+                "sentence": 4,
+                "start": 314,
+                "syncon": 16464,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 77,
+                    "id": 78,
+                    "label": "punct"
+                },
+                "end": 320,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 44,
+                "pos": "PUNCT",
+                "sentence": 4,
+                "start": 319,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 81,
+                    "id": 79,
+                    "label": "case"
+                },
+                "end": 323,
+                "lemma": "in",
+                "paragraph": 0,
+                "phrase": 45,
+                "pos": "ADP",
+                "sentence": 4,
+                "start": 321,
+                "syncon": -1,
+                "type": "PRE"
+            },
+            {
+                "dependency": {
+                    "head": 81,
+                    "id": 80,
+                    "label": "det"
+                },
+                "end": 325,
+                "lemma": "a",
+                "morphology": "Definite=Ind|PronType=Art",
+                "paragraph": 0,
+                "phrase": 45,
+                "pos": "DET",
+                "sentence": 4,
+                "start": 324,
+                "syncon": -1,
+                "type": "ART"
+            },
+            {
+                "dependency": {
+                    "head": 77,
+                    "id": 81,
+                    "label": "conj"
+                },
+                "end": 330,
+                "lemma": "town",
+                "morphology": "Number=Sing",
+                "paragraph": 0,
+                "phrase": 45,
+                "pos": "NOUN",
+                "sentence": 4,
+                "start": 326,
+                "syncon": 37740,
+                "type": "NOU"
+            },
+            {
+                "dependency": {
+                    "head": 83,
+                    "id": 82,
+                    "label": "advmod"
+                },
+                "end": 336,
+                "lemma": "about",
+                "paragraph": 0,
+                "phrase": 46,
+                "pos": "ADV",
+                "sentence": 4,
+                "start": 331,
+                "syncon": 158291,
+                "type": "ADV"
+            },
+            {
+                "atoms": [
+                    {
+                        "end": 339,
+                        "lemma": "20",
+                        "start": 337,
+                        "type": "ADJ"
+                    },
+                    {
+                        "end": 342,
+                        "lemma": "km",
+                        "start": 340,
+                        "type": "NOU"
+                    }
+                ],
+                "dependency": {
+                    "head": 72,
+                    "id": 83,
+                    "label": "obl"
+                },
+                "end": 342,
+                "lemma": "20 kilometer",
+                "paragraph": 0,
+                "phrase": 46,
+                "pos": "NOUN",
+                "sentence": 4,
+                "start": 337,
+                "syncon": -1,
+                "type": "NOU.MEA",
+                "vsyn": {
+                    "id": -436162,
+                    "parent": 105829
+                }
+            },
+            {
+                "dependency": {
+                    "head": 83,
+                    "id": 84,
+                    "label": "advmod"
+                },
+                "end": 347,
+                "lemma": "away",
+                "paragraph": 0,
+                "phrase": 46,
+                "pos": "ADV",
+                "sentence": 4,
+                "start": 343,
+                "syncon": 160844,
+                "type": "ADV"
+            },
+            {
+                "dependency": {
+                    "head": 72,
+                    "id": 85,
+                    "label": "punct"
+                },
+                "end": 348,
+                "lemma": ".",
+                "paragraph": 0,
+                "phrase": 47,
+                "pos": "PUNCT",
+                "sentence": 4,
+                "start": 347,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 88,
+                    "id": 86,
+                    "label": "nsubj"
+                },
+                "end": 351,
+                "lemma": "It",
+                "morphology": "Gender=Neut|Number=Sing|PronType=Prs|Person=3",
+                "paragraph": 0,
+                "phrase": 48,
+                "pos": "PRON",
+                "sentence": 5,
+                "start": 349,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "atoms": [
+                    {
+                        "end": 352,
+                        "lemma": "'",
+                        "start": 351,
+                        "type": "PNT"
+                    },
+                    {
+                        "end": 353,
+                        "lemma": "s",
+                        "start": 352,
+                        "type": "VER"
+                    }
+                ],
+                "dependency": {
+                    "head": 88,
+                    "id": 87,
+                    "label": "cop"
+                },
+                "end": 353,
+                "lemma": "be",
+                "morphology": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 49,
+                "pos": "AUX",
+                "sentence": 5,
+                "start": 351,
+                "syncon": 72504,
+                "type": "VER"
+            },
+            {
+                "dependency": {
+                    "head": 88,
+                    "id": 88,
+                    "label": "root"
+                },
+                "end": 359,
+                "lemma": "small",
+                "paragraph": 0,
+                "phrase": 49,
+                "pos": "ADJ",
+                "sentence": 5,
+                "start": 354,
+                "syncon": 82574,
+                "type": "ADJ"
+            },
+            {
+                "dependency": {
+                    "head": 88,
+                    "id": 89,
+                    "label": "punct"
+                },
+                "end": 360,
+                "lemma": ",",
+                "paragraph": 0,
+                "phrase": 50,
+                "pos": "PUNCT",
+                "sentence": 5,
+                "start": 359,
+                "syncon": -1,
+                "type": "PNT"
+            },
+            {
+                "dependency": {
+                    "head": 92,
+                    "id": 90,
+                    "label": "cc"
+                },
+                "end": 364,
+                "lemma": "and",
+                "paragraph": 0,
+                "phrase": 51,
+                "pos": "CCONJ",
+                "sentence": 5,
+                "start": 361,
+                "syncon": -1,
+                "type": "CON"
+            },
+            {
+                "dependency": {
+                    "head": 92,
+                    "id": 91,
+                    "label": "nsubj"
+                },
+                "end": 366,
+                "lemma": "I",
+                "morphology": "Number=Sing|PronType=Prs|Case=Nom|Person=1",
+                "paragraph": 0,
+                "phrase": 52,
+                "pos": "PRON",
+                "sentence": 5,
+                "start": 365,
+                "syncon": -1,
+                "type": "PRO"
+            },
+            {
+                "dependency": {
+                    "head": 88,
+                    "id": 92,
+                    "label": "conj"
+                },
+                "end": 371,
+                "lemma": "have",
+                "morphology": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+                "paragraph": 0,
+                "phrase": 53,
+                "pos": "VERB",
+                "sentence": 5,
+                "start": 367,
+                "syncon": 71108,
+                "type": "VER"
+            }
+        ],
+        "topics": [
+            {
+                "id": 114,
+                "label": "construction industry",
+                "score": 2.5,
+                "winner": true
+            },
+            {
+                "id": 161,
+                "label": "geography",
+                "score": 0.1,
+                "winner": false
+            }
+        ],
+        "version": "sensei: 3.1.0; disambiguator: 15.0-QNTX-2016"
+    },
+    "success": true
+}
