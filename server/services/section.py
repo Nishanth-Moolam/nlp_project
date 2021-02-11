@@ -10,3 +10,9 @@ def CreateSection(section_name):
         section_name=section_name, date_added=date_added)
     db.session.add(new_section)
     db.session.commit()
+
+def DeleteSection():
+    pass
+
+def UpdateSection():
+    pass

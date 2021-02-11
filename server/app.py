@@ -7,6 +7,7 @@ import config
 
 from endpoints.upload import upload
 from endpoints.test import test
+from endpoints.notes import notes
 
 # folder where file uploads exist
 UPLOAD_FOLDER = config.server_path+'/static/uploads'
@@ -15,6 +16,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 app = Flask(__name__)
 
 app.register_blueprint(upload, url_prefix='')
+app.register_blueprint(notes, url_prefix = '')
 app.register_blueprint(test, url_prefix='')
 
 # enables cors

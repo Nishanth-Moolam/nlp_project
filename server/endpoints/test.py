@@ -15,7 +15,9 @@ class UseExpert(MethodView):
 
 
     def post(self):
-        return 'test endpoint'
+        from services.reader import ms_ocr_read
+        picture_url = request.form['url']
+        return ms_ocr_read(picture_url)
 
 
 test.add_url_rule('/test', view_func=UseExpert.as_view('test'))

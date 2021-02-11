@@ -18,3 +18,27 @@ def ms_ocr_read(picture_url):
     return response_dict
 
 
+def ms_ocr_config(response_dict):
+    '''
+    returns a list of all words.
+    '''
+    words = []
+    for box in response_dict:
+        for line in box['lines']:
+            for word in line['words']:
+                words.append(word['text'])
+    
+    return words
+
+def ms_ocr_serialize(words):
+    words_string = ''
+    for i in words:
+        words_string += i+' '
+    return words_string
+
+def ms_ocr(picture_url):
+    response_dict = ms_ocr_read(picture_url)
+    words = ms_ocr_config(response_dict)
+    words_string = ms_ocr_serialize(words)
+
+    return words_string

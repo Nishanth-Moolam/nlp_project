@@ -10,3 +10,9 @@ def CreateNote(notes_filename, section_id):
         notes_filename=notes_filename, section_id=section_id, date_added=date_added)
     db.session.add(new_note)
     db.session.commit()
+
+def DeleteNote():
+    pass
+
+def UpdateNote():
+    pass

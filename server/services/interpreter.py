@@ -27,3 +27,5 @@ def expertai_full_analyze(text):
 
     return json.loads(response.text)
 
+def expertai_full_config(response_dict):
+    pass
