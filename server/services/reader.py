@@ -37,6 +37,9 @@ def ms_ocr_serialize(words):
     return words_string
 
 def ms_ocr(picture_url):
+    '''
+    returns a single string of all words read concatenated together
+    '''
     response_dict = ms_ocr_read(picture_url)
     words = ms_ocr_config(response_dict)
     words_string = ms_ocr_serialize(words)

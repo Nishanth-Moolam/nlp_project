@@ -1,5 +1,11 @@
 from app import db
 
+'''
+Note:
+
+when querying, remember that there could be multiple entries of the same value for entity etc. you must query for all of them, to find all associated notes.
+'''
+
 
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)

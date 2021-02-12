@@ -15,9 +15,10 @@ class UseExpert(MethodView):
 
 
     def post(self):
-        from services.reader import ms_ocr_read
-        picture_url = request.form['url']
-        return ms_ocr_read(picture_url)
+        from services.interpreter import expertai_full_config
+
+        test_json = request.form['test_json']
+        return expertai_full_config(test_json)
 
 
 test.add_url_rule('/test', view_func=UseExpert.as_view('test'))

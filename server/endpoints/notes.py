@@ -28,3 +28,19 @@ class NotesView(MethodView):
 
 notes.add_url_rule('/section/<int:section_id>/note/<int:note_id>', view_func=NotesView.as_view('note'))
 
+
+class SectionView(MethodView):
+    '''
+    this should list out the notes in a section
+    '''
+
+    def get(self):
+        pass
+
+class FullView(MethodView):
+    '''
+    this should list out all the sections created
+    '''
+
+    def get(self):
+        pass
