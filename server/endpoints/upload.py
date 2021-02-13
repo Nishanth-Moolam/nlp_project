@@ -18,6 +18,9 @@ class UploadNotesFile(MethodView):
     def post(self):
         from services.utils import find_section, save_file
         from services.note import CreateNote
+        from services.insights import process_insights
+
+        from services.reader import ms_ocr_read
 
         if request.files:
 
@@ -27,18 +30,22 @@ class UploadNotesFile(MethodView):
 
             # add notes info into notes db model
             section_id = find_section(notes_section)
-            CreateNote(
-                notes_filename=notes_filename, section_id=section_id)
+            CreateNote(notes_filename=notes_filename, section_id=section_id)
 
             # uses upload service to upload notes file
             try:
-                save_file(
-                    notes_file, notes_section, notes_filename)
+                # saves note to local
+                save_file(notes_file, notes_section, notes_filename)
             except:
-                return 'file-path does not exist'
+                return 'error occured while uploading'
 
+            try:
+                # processes insights
+                # ms_ocr_read does not work since files are not hosted online. Must investigate how to host images and files online
+                process_insights(notes_filename)
+            except:
+                return 'error occured while processing insights'
             return 'file worked with notes folder: '+notes_section
-
         return 'file not present'
 
 

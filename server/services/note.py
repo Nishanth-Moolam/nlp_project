@@ -7,7 +7,10 @@ def CreateNote(notes_filename, section_id):
     date_added = datetime.now()
 
     new_note = Note(
-        notes_filename=notes_filename, section_id=section_id, date_added=date_added)
+            notes_filename=notes_filename, 
+            section_id=section_id, 
+            date_added=date_added
+        )
     db.session.add(new_note)
     db.session.commit()
 
@@ -17,20 +20,20 @@ def DeleteNote():
 def UpdateNote():
     pass
 
-def ReadNote(picture_url):
-    from interpreter import ms_ocr
+def read_note(picture_url):
+    from services.reader import ms_ocr
 
     words_string = ms_ocr(picture_url)
     return words_string
 
-def InterpretNote(text):
-    from interpreter import expertai_full
+def interpret_note(text):
+    from services.interpreter import expertai_full
 
     output_dict = expertai_full(text)
     return output_dict
 
-def ReadAndinterpretNote(picture_url):
+def read_and_interpret_note(picture_url):
     '''
     returns a dictionary with entities, lemmas, phrases, topics
     ''' 
-    return InterpretNote(ReadNote(picture_url))
+    return interpret_note(read_note(picture_url))

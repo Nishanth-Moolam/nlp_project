@@ -32,13 +32,37 @@ class Note(db.Model):
     notes_filename = db.Column(db.String(100), nullable=False)
     section_id = db.Column(db.Integer, db.ForeignKey('section.id'))
     date_added = db.Column(db.DateTime, nullable=False)
-
+    entities = db.relationship('Entity', backref='note')
+    lemmas = db.relationship('Lemma', backref='note')
+    phrases = db.relationship('Phrase', backref='note')
+    topics = db.relationship('Topic', backref='note')
 
 class Section(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     section_name = db.Column(db.String(50), nullable=False)
     date_added = db.Column(db.DateTime, nullable=False)
     notes = db.relationship('Note', backref='section')
+
+class Entity(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    value = db.Column(db.String(50), nullable=False)
+    note_id = db.Column(db.Integer, db.ForeignKey('note.id'))
+
+class Lemma(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    value = db.Column(db.String(50), nullable=False)
+    note_id = db.Column(db.Integer, db.ForeignKey('note.id'))
+
+class Phrase(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    value = db.Column(db.String(100), nullable=False)
+    note_id = db.Column(db.Integer, db.ForeignKey('note.id'))
+
+class Topic(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    value = db.Column(db.String(50), nullable=False)
+    note_id = db.Column(db.Integer, db.ForeignKey('note.id'))
+
 '''
 
 

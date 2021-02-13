@@ -18,10 +18,19 @@ def find_section(section_name):
     section = Section.query.filter_by(section_name=section_name).first()
     return section.id 
 
+
 def find_section_name(section_id):
     section = Section.query.filter_by(id = section_id).first()
     return section.section_name
 
+
 def find_note_name(note_id):
     note = Note.query.filter_by(id = note_id).first()
     return note.notes_filename
+
+
+def find_picture_url(notes_filename):
+    note = Note.query.filter_by(notes_filename = notes_filename).first()
+    url = config.url+'/section/'+str(note.section_id)+'/note/'+str(note.id)
+
+    return url
