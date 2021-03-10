@@ -2,7 +2,7 @@
 
 ## Running server
 
-create a virtual environment and activate it:
+create a virtual environment and activate it: 
 
 ```
 virtualenv env
