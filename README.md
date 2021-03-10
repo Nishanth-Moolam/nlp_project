@@ -43,3 +43,6 @@ This application uses the following external api's: (you must use your own api k
 - Microsoft Computer Vision API (through rapidapi) (https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-computer-vision3/endpoints)
 
 - expert.ai Natural Language API (https://developer.expert.ai/ui)
+
+https://textract.readthedocs.io/en/latest/installation.html
+brew install --cask xquartz

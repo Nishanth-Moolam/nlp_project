@@ -14,6 +14,8 @@ def CreateNote(notes_filename, section_id):
     db.session.add(new_note)
     db.session.commit()
 
+    return new_note.id
+
 def DeleteNote():
     pass
 
@@ -21,9 +23,9 @@ def UpdateNote():
     pass
 
 def read_note(picture_url):
-    from services.reader import ms_ocr
+    from services.reader import read
 
-    words_string = ms_ocr(picture_url)
+    words_string = read(picture_url)
     return words_string
 
 def interpret_note(text):

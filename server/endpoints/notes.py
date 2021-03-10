@@ -19,7 +19,7 @@ class NotesView(MethodView):
         section_name = find_section_name(section_id)
         note_name = find_note_name(note_id)
 
-        return send_file(config.server_path+'/static/uploads/'+section_name+'/'+note_name)
+        return send_file(config.server_path+'/static/uploads/'+section_name+'/'+str(note_id)+'-'+note_name)
 
 
     def post(self, section_id, note_id):

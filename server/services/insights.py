@@ -1,15 +1,15 @@
-from models.entity import Entity
+from models.entity import Entity, db
 from models.lemma import Lemma
 from models.phrase import Phrase
 from models.topic import Topic
 
-def process_insights(notes_filename):
+def process_insights(notes_filename, note_id):
     from services.note import read_and_interpret_note
     from services.utils import find_picture_url
 
-    picture_url = find_picture_url(notes_filename)
+    picture_url = find_picture_url(note_id)
     insights_dict = read_and_interpret_note(picture_url)
-    upload_insights(insights_dict)
+    upload_insights(insights_dict, note_id)
 
 # handles entities, lemmas, phrases, topics
 def upload_insights(insights_dict, note_id):
@@ -30,7 +30,7 @@ def upload_insights(insights_dict, note_id):
         CreateLemma(lemma, note_id)
 
     for phrase in phrases:
-        Createphrase(phrase, note_id)
+        CreatePhrase(phrase, note_id)
 
     for topic in topics:
         CreateTopic(topic, note_id)

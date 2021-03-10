@@ -1,12 +1,12 @@
 import requests
 import json
+from expertai.client import ExpertAiClient
 
 import config
 
 '''
 note all text must be a SINGLE PARAGRAPH. the api will return an error otherwise
 '''
-
 
 def expertai_entities_analyze(text):
     headers = config.expertai_headers
@@ -22,13 +22,13 @@ def expertai_full_analyze(text):
     '''
     refer to expertai_full_data.json for test output (in static)
     '''
-    headers = config.expertai_headers
-    url = config.expertai_full_url
-    data = '{ "document": { "text" : "'+text+'" } }'
 
-    response = requests.post(url, headers=headers, data=data)
+    client = ExpertAiClient()
+    params = {'language': 'en'}
+    output = client.full_analysis(body={"document": {"text": text }}, params=params)
 
-    return json.loads(response.text)
+    return output.parse_data()
+
 
 def expertai_full_config(response_dict):
 

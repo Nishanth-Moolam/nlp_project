@@ -16,36 +16,48 @@ class UploadNotesFile(MethodView):
         return 'this is the upload notes file page'
 
     def post(self):
-        from services.utils import find_section, save_file
+        from services.utils import find_section_name, save_file, does_section_exist
         from services.note import CreateNote
         from services.insights import process_insights
 
-        from services.reader import ms_ocr_read
-
         if request.files:
 
+            # initializes values
             notes_file = request.files['notes_file']
-            notes_section = request.form['notes_section']
-            notes_filename = secure_filename(notes_file.filename)
+            notes_section_id = request.form['section_id']
+            
+            # uploads note to db is section exists
+            if does_section_exist(notes_section_id):
+                # this is the version saved in db
+                notes_filename = secure_filename(notes_file.filename)
 
-            # add notes info into notes db model
-            section_id = find_section(notes_section)
-            CreateNote(notes_filename=notes_filename, section_id=section_id)
+                # add notes info into notes db model
+                note_id = CreateNote(notes_filename=notes_filename, section_id=notes_section_id)
+
+                # finds section name
+                notes_section = find_section_name(notes_section_id)
+
+                # this is the name saved on local (id appended)
+                notes_filename_ = str(note_id)+'-'+notes_filename
+            else:
+                return 'section does not exist'
 
             # uses upload service to upload notes file
             try:
                 # saves note to local
-                save_file(notes_file, notes_section, notes_filename)
+                save_file(notes_file, notes_section, notes_filename_)
             except:
                 return 'error occured while uploading'
 
             try:
-                # processes insights
-                # ms_ocr_read does not work since files are not hosted online. Must investigate how to host images and files online
-                process_insights(notes_filename)
+                # reads note, extracts insights from note, and saves insights in db
+                process_insights(notes_filename, note_id)
             except:
-                return 'error occured while processing insights'
-            return 'file worked with notes folder: '+notes_section
+                return 'error occured while reading and processing insights'
+            # process_insights(notes_filename_, note_id)
+
+            return 'file uploaded to section: '+notes_section
+
         return 'file not present'
 
 
@@ -65,10 +77,10 @@ class CreateSectionFolder(MethodView):
         section_name = request.form['section_name']
 
         # add into db model
-        CreateSection(section_name=section_name)
+        section_id = CreateSection(section_name=section_name)
 
         # creates the folder
-        make_folder(section_name)
+        make_folder(str(section_id)+'-'+section_name)
 
         return 'section created!'
 

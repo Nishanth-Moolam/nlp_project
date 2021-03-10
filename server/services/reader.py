@@ -1,47 +1,17 @@
-import requests
-import json
+import textract
 
-import config
-
-# to prevent unneccesary calls to the api (I only have a certain amount in the free tier)
-# I'm saving the response ad s a json file, and using that as a reference. (found in static)
-def ms_ocr_read(picture_url):
-    url = config.ms_computer_vision_ocr_url
-    querystring = config.ms_computer_vision_ocr_query_string
-    headers = config.ms_computer_vision_headers
-
-    payload = str({"url": picture_url})
-
-    response = requests.request("POST", url, data=payload, headers=headers, params=querystring)
-    response_dict = json.loads(response.text)
-
-    return response_dict
-
-
-def ms_ocr_config(response_dict):
+def read(picture_url):
     '''
-    returns a list of all words.
+    returns a string of all text read on a single line
     '''
-    words = []
-    for box in response_dict:
-        for line in box['lines']:
-            for word in line['words']:
-                words.append(word['text'])
-    
-    return words
+    text = textract.process(picture_url).decode('utf-8')
+    single_line_text = str.join(' ', text.splitlines())
 
-def ms_ocr_serialize(words):
-    words_string = ''
-    for i in words:
-        words_string += i+' '
-    return words_string
+    configured_text = configure_text(single_line_text)
 
-def ms_ocr(picture_url):
-    '''
-    returns a single string of all words read concatenated together
-    '''
-    response_dict = ms_ocr_read(picture_url)
-    words = ms_ocr_config(response_dict)
-    words_string = ms_ocr_serialize(words)
+    return configured_text
 
-    return words_string
+def configure_text(text):
+    return_text = text.replace('é', 'e')
+
+    return return_text

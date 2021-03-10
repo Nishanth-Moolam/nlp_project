@@ -11,6 +11,8 @@ def CreateSection(section_name):
     db.session.add(new_section)
     db.session.commit()
 
+    return new_section.id
+
 def DeleteSection():
     pass
 
