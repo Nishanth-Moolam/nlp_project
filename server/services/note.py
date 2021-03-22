@@ -16,8 +16,11 @@ def CreateNote(notes_filename, section_id):
 
     return new_note.id
 
-def DeleteNote():
-    pass
+def DeleteNote(note_id):
+    note = Note.query.filter_by(id = note_id).first()
+    db.delete(note)
+    db.commit()
+    
 
 def UpdateNote():
     pass

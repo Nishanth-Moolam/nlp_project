@@ -60,6 +60,12 @@ class UploadNotesFile(MethodView):
 
         return 'file not present'
 
+class DeleteNotesFile(MethodView):
+
+    def post(self):
+        from services.note import DeleteNote
+
+        note_id = request.form['note_id']
 
 upload.add_url_rule('/upload', view_func=UploadNotesFile.as_view('upload'))
 

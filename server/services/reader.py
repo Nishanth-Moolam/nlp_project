@@ -8,6 +8,7 @@ def read(picture_url):
     single_line_text = str.join(' ', text.splitlines())
 
     configured_text = configure_text(single_line_text)
+    print (text)
 
     return configured_text
 

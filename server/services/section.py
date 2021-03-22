@@ -13,8 +13,10 @@ def CreateSection(section_name):
 
     return new_section.id
 
-def DeleteSection():
-    pass
+def DeleteSection(section_id):
+    section = Section.query.filter_by(id = section_id).first()
+    db.delete(section)
+    db.commit()
 
 def UpdateSection():
     pass
