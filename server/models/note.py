@@ -12,6 +12,9 @@ when querying, remember that there could be multiple entries of the same value f
 
 
 class Note(db.Model):
+    __tablename__ = 'note'
+    __searchable__ = ['notes_filename']
+    
     id = db.Column(db.Integer, primary_key=True)
     notes_filename = db.Column(db.String(100), nullable=False)
     section_id = db.Column(db.Integer, db.ForeignKey('section.id'))
