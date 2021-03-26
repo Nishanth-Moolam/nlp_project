@@ -15,10 +15,10 @@ class UseExpert(MethodView):
 
 
     def post(self):
-        from services.interpreter import expertai_full_analyze
+        from services.searcher import search_insights
 
-        test_string = 'hello, this is nick, and Im going to talk about my interests. My interests include music and languages'
-        output_ = expertai_full_analyze(test_string)
+        test_string = 't'
+        output_ = search_insights(test_string)
 
         return {'return': output_}
 
