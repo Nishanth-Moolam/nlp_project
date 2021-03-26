@@ -12,7 +12,6 @@ upload = Blueprint('upload', __name__)
 class UploadNotesFile(MethodView):
 
     def get(self):
-
         return 'this is the upload notes file page'
 
     def post(self):
@@ -30,22 +29,17 @@ class UploadNotesFile(MethodView):
             if does_section_exist(notes_section_id):
                 # this is the version saved in db
                 notes_filename = secure_filename(notes_file.filename)
-
                 # add notes info into notes db model
                 note_id = CreateNote(notes_filename=notes_filename, section_id=notes_section_id)
-
                 # finds section name
                 notes_section = find_section_name(notes_section_id)
-
-                # this is the name saved on local (id appended)
-                notes_filename_ = str(note_id)+'-'+notes_filename
             else:
                 return 'section does not exist'
 
             # uses upload service to upload notes file
             try:
                 # saves note to local
-                save_file(notes_file, notes_section, notes_filename_)
+                save_file(notes_file, notes_section, notes_filename, note_id)
             except:
                 return 'error occured while uploading'
 
@@ -54,11 +48,12 @@ class UploadNotesFile(MethodView):
                 process_insights(notes_filename, note_id)
             except:
                 return 'error occured while reading and processing insights'
-            # process_insights(notes_filename_, note_id)
 
             return 'file uploaded to section: '+notes_section
 
         return 'file not present'
+
+upload.add_url_rule('/upload', view_func=UploadNotesFile.as_view('upload'))
 
 class DeleteNotesFile(MethodView):
 
@@ -67,14 +62,9 @@ class DeleteNotesFile(MethodView):
 
         note_id = request.form['note_id']
 
-upload.add_url_rule('/upload', view_func=UploadNotesFile.as_view('upload'))
-
+upload.add_url_rule('/delete', view_func=DeleteNotesFile.as_view('delete'))  
 
 class CreateSectionFolder(MethodView):
-
-    def get(self):
-
-        return 'this is the create section folder page'
 
     def post(self):
         from services.utils import make_folder
